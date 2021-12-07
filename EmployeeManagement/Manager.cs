@@ -5,7 +5,7 @@ namespace EmployeeManagement
 {
     class Manager : PersonWithSubordinates
     {
-        public Manager(string name, DateTime addInDate) : base(name, addInDate){}
+        public Manager(string name, DateTime addOnDate) : base(name, addOnDate) {}
         public override decimal SalaryCalculation(DateTime data)
         {
             decimal premium = 0;

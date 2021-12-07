@@ -4,7 +4,7 @@ namespace EmployeeManagement
 {
     class Employee : Person
     {
-        public Employee (string name, DateTime addInDate) : base(name, addInDate) { }
+        public Employee (string name, DateTime addOnDate) : base(name, addOnDate) { }
 
         public override  decimal SalaryCalculation(DateTime data)
         {

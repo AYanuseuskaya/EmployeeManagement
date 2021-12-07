@@ -9,7 +9,7 @@ namespace EmployeeManagement
     class PersonWithSubordinates : Person
     {
         protected List<Person> Subordinates { get; set; }
-        public PersonWithSubordinates(string name, DateTime addInDate) : base(name, addInDate)
+        public PersonWithSubordinates(string name, DateTime addOnDate) : base(name, addOnDate)
         {
             Subordinates = new List<Person>();
         }

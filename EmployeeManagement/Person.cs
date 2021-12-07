@@ -15,14 +15,14 @@ namespace EmployeeManagement
         /// <value>
         /// The employee name
         /// </value>
-        protected string Name { get; set; }
+        public string Name { get; set; }
         /// <summary>
         /// Gets or sets the day of employment
         /// </summary>
         /// <value>
         /// The day of employment
         /// </value>
-        protected DateTime AddOnDate { get; set; }
+        public DateTime AddOnDate { get; set; }
         /// <summary>
         /// Gets or sets the base rate
         /// </summary>
@@ -36,7 +36,7 @@ namespace EmployeeManagement
         /// <value>
         /// The head
         /// </value>
-        protected PersonWithSubordinates Head { get; set; }
+        public PersonWithSubordinates Head { get; set; }
         /// <summary>
         /// Initializes a new instance of the <see cref="Person"/> class.
         /// </summary>

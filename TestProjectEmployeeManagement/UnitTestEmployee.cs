@@ -1,4 +1,4 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+п»їusing Microsoft.VisualStudio.TestTools.UnitTesting;
 using EmployeeManagement;
 
 namespace TestProjectEmployeeManagement
@@ -6,7 +6,7 @@ namespace TestProjectEmployeeManagement
     [TestClass]
     public class UnitTestEmployee
     {
-        readonly Employee employee = new("Радцевич Константин Александрович", new(2020, 12, 15));
+        readonly Employee employee = new("Р Р°РґС†РµРІРёС‡ РљРѕРЅСЃС‚Р°РЅС‚РёРЅ РђР»РµРєСЃР°РЅРґСЂРѕРІРёС‡", new(2020, 12, 15));
         private const decimal resultEmployeeSalaryCalculation0Years = 50000;
         [TestMethod]
         public void TestMethodEmployeeSalaryCalculation_50000BaserateAnd0YearsOfWork_resultEmployeeSalaryCalculation0Years()

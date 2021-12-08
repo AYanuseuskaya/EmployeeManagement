@@ -7,7 +7,7 @@ namespace EmployeeManagement
     /// It is common to all components  in the tree structure.
     /// Implements a mechanism for adding a head to an employee, calculating the employee's salary and receiving the salaries of all subordinates.  
     /// </summary>
-    abstract class Person
+   public abstract class Person
     {
         /// <summary>
         /// Gets or sets the employee name

@@ -7,7 +7,7 @@ namespace EmployeeManagement
     /// Inherits from Person.
     /// Implements the mechanism for calculating the salary of an employee of this type
     /// </summary>
-    class Employee : Person
+    public class Employee : Person
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="Employee"/> class.

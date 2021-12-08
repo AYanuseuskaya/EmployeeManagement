@@ -8,7 +8,7 @@ namespace EmployeeManagement
     /// Inherits from PersonWithSubordinates.
     /// Implements the mechanism for calculating the salary of an employee of this type.
     /// </summary>
-    class Manager : PersonWithSubordinates
+    public class Manager : PersonWithSubordinates
     {
         /// <summary>
         /// Initializes a new instance of the <see cref="Manager"/> class.

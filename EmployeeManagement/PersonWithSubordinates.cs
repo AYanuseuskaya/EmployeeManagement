@@ -11,7 +11,7 @@ namespace EmployeeManagement
     /// Inherits from the Person class.
     /// Implements a mechanism for adding a subordinate and calculating the salaries of all subordinates.
     /// </summary>
-    abstract class PersonWithSubordinates : Person
+    public abstract class PersonWithSubordinates : Person
     {
         /// <summary>
         /// Gets or sets the subordinates
